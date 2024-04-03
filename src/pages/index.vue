@@ -1,7 +1,3 @@
 <template>
-  <HelloWorld />
+  <InitialComponent />
 </template>
-
-<script lang="ts" setup>
-  //
-</script>

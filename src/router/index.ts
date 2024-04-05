@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import { setupLayouts } from 'virtual:generated-layouts'
 import Login from '../pages/Login.vue'
-import Dashboard from '../pages/Dashbord.vue'
+import Users from '../pages/Users.vue'
 
 const routes = setupLayouts([
   {
@@ -9,8 +9,8 @@ const routes = setupLayouts([
     component: Login,
   },
   {
-    path: '/dashboard',
-    component: Dashboard,
+    path: '/users',
+    component: Users,
   },
 ])
 

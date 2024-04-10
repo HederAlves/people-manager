@@ -46,6 +46,7 @@ const addUser = async () => {
           email: '',
           password: ''
         };
+        window.location.reload()
       }
     }
   } catch (error) {
